@@ -303,7 +303,6 @@ var makeRecursiveMenu = function (index, title, populated, items, type, final) {
 }
 
 var makeMenu = function (title, items, type, cb) {
-    console.log("FFFFfffff", title, items, type)
     var _menu = menu(title, cb)
     items.forEach(function (item, index) {
         _type = type
